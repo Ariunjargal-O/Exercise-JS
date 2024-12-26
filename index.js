@@ -178,16 +178,67 @@
 // console.log(hariu)
 
 
-// -------------2 arga
-var too = 3
-var zereg = 4
-var result = 1
-for(let i =1 ; i <= zereg; i++){
-    result *= too
-    console.log(result)
-}
-
+// // -------------2 arga
+// var too = 3
+// var zereg = 4
+// var result = 1
+// for(let i =1 ; i <= zereg; i++){
+//     result *= too
+//     console.log(result)
+// }
 
 // console.log(2**3)   ijil utgatai
 // 2 == 2**3   
 
+
+
+// ----------------12 sariin 26nd
+// Anhnii too oloh 
+
+// let n = 12
+// let isprimenumber = true;
+
+// if (n <= 1) isprimenumber = false
+// for (let i = 2; i < n; i++) {
+//     if (n % i == 0)  isprimenumber = true
+    
+// }
+// console.log(isprimenumber)
+
+
+// 1 2 3 4 5 6 7 8  ...  121 122 123
+
+
+let n = 123;
+
+for(let i = 2; i <n; i++){
+    if(n%i == 0) {
+        console.log(i, 'buheltoo')
+
+    }
+}
+
+
+
+
+
+
+
+// ----------FUNCTION HICHEEL
+// define buyu duudah  parameter   
+// function calculate(param){}
+// // call/excute nbuyu nershil
+// calculate(...para..)
+
+
+// function checkisprimenumber(n){
+//     let isprimenumber = true;
+//     if(n <= 1)
+// {isprimenumber = false}
+// for(let i =2; i <= n; i++){
+//         if(n % i ==0){isprimenumber = false}
+// }
+// console.log(isprimenumber)
+// }
+
+// console.log(checkisprimenumber(3))
