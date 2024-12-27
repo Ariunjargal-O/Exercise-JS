@@ -206,20 +206,6 @@
 // console.log(isprimenumber)
 
 
-// 1 2 3 4 5 6 7 8  ...  121 122 123
-
-
-let n = 123;
-
-for(let i = 2; i <n; i++){
-    if(n%i == 0) {
-        console.log(i, 'buheltoo')
-
-    }
-}
-
-
-
 
 
 
@@ -242,3 +228,55 @@ for(let i = 2; i <n; i++){
 // }
 
 // console.log(checkisprimenumber(3))
+
+
+// -----Lvl 1
+// var text = '5'
+// text = text +'5'
+// console.log(text)
+
+
+// -----LvL 2
+// var text = ''
+// for(var i = 4; i >= 0; i++){
+//     text = text +'*'
+//     console.log(text)
+// }
+
+// var n = 10;
+
+// for(let i = 2; i <n; i++){
+//     console.log('....')
+//     console.log('....')
+
+//     if (i===3){
+//         var text ='hello'
+//         console.log("jump", text)
+//     }
+
+//     console.log('....')
+
+//     console.log('....'
+  
+// }
+
+
+
+function isPrimeNumber(n){
+    var result = 'mon'; 
+    for (i =2; i <n; i++){
+       var hariu = n%i;
+       if(hariu == 0){
+            result = "bish";
+       }
+    }
+
+    console.log(result);
+}
+
+
+isPrimeNumber(17);
+
+isPrimeNumber(22);
+
+isPrimeNumber(27);
