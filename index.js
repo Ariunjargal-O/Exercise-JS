@@ -201,7 +201,7 @@
 // if (n <= 1) isprimenumber = false
 // for (let i = 2; i < n; i++) {
 //     if (n % i == 0)  isprimenumber = true
-    
+
 // }
 // console.log(isprimenumber)
 
@@ -257,26 +257,205 @@
 //     console.log('....')
 
 //     console.log('....'
-  
+
 // }
 
 
 
-function isPrimeNumber(n){
-    var result = 'mon'; 
-    for (i =2; i <n; i++){
-       var hariu = n%i;
-       if(hariu == 0){
-            result = "bish";
-       }
-    }
+// function isPrimeNumber(n){
+//     var result = 'mon'; 
+//     for (i =2; i <n; i++){
+//        var hariu = n%i;
+//        if(hariu == 0){
+//             result = "bish";
+//        }
+//     }
 
-    console.log(result);
+//     console.log(n, result);
+// }
+
+
+
+// isPrimeNumber(1);
+// isPrimeNumber(2);
+// isPrimeNumber(3);
+// isPrimeNumber(4);
+// isPrimeNumber(5);
+
+// for (let j =1; j<100; j++){
+
+//     isPrimeNumber(j);
+
+// }
+
+
+
+//  ----- 12 sariin 30nd
+
+// 1-100 hurtelh sondgoi toog hevleh
+
+// for(let i=1; i<= 100; i++){
+//     if(i%2 !==0)
+//         {console.log(i)}
+// }
+
+//  1-100 hurtelh tegsh toonii niilber
+
+// let sum = 0;
+// for(i=1; i<=100; i++){
+//     if(i%2==0){
+//         sum=sum+i}
+// console.log(sum)
+// }
+
+
+//  1-10 hurtelh toonii urjver
+
+// let sum = 1
+// for(let i=1; i<=10; i++){
+//     sum=sum*i
+// }console.log(sum)
+
+
+//  gurvaljin hiih
+
+
+// *
+// **
+// ***
+// ****
+// *****
+// sum= ''
+// for(i=0; i<=4; i++){
+//     sum=sum+'*'
+//     console.log(sum)
+// }
+
+
+// *****
+//  ****
+//   ***
+//    **
+//     *
+// for(let i=0; i<=4; i++){
+//     let text = ''
+//     for(let j=0; j<=4; j++){
+//         if(i>j) {text +=' '}  
+//     else {text+='*'}}
+//     console.log(text)
+// }
+
+
+//     *
+//    **
+//   ***
+//  ****
+// *****
+// for (i = 5; i >= 1; i--) {
+//     let text = ''
+//     for (j = 1; j <= 5; j++) {
+//         if (i <= j) {
+//             text += '*'
+//         }
+//         else {
+//             text += ' '
+//         }
+//     }
+//     console.log(text)
+// }
+
+
+// *****
+// ****
+// ***
+// **
+// *
+
+// for (i = 5; i >= 1; i--) {
+//     let text = ''
+//     for (j = 1; j <= 5; j++) {
+//         if (i >= j) {
+//             text += '*'
+//         }
+//         else {
+//             text += ' '
+//         }
+//     }
+//     console.log(text)
+// }
+
+
+//       *    
+//      ***
+//     *****
+//    *******
+//   *********
+// let num = 5;
+// let text = '';
+// for(let i=1; i<=num; i++){
+//     for(j=1; j<=(num-i);j++){
+// text += ' ';}
+// for(k=1; k<=((2*i)-1); k++){
+//     text += '*';
+// }
+// text +='\n';
+// }
+// console.group(text)
+
+
+
+
+// *********
+//  *******
+//   *****
+//    ***
+//     *  
+
+// let text
+// text = 
+// for (var i =9; i>0; i--)
+
+
+
+
+
+// ---- zereg oloh
+
+// function hariu(a,n){
+// let result = 1
+//  for( i =0; i<n; i++){
+//     result = a * result;
+// }
+// return result
+// }
+// console.log(hariu(2,5))
+
+
+
+
+
+//  anhnii too oloh
+
+// function isPrimeNumber(n){
+//     for(let i =2; i<n; i++){
+//         if(n%i==0){return false}
+//     }
+//     return true
+// }
+// console.log(isPrimeNumber(17))
+// for(let k=1; k<=100; k++)
+//     if(isPrimeNumber(k)==true)
+//         console.log(k,isPrimeNumber(k))
+
+
+
+
+//  1-10 hurtelh  toonii bagtral oloh
+
+let n =5 ;
+let result = 1;
+for(i=1; i<=n; i++){
+   result=result*i
 }
+console.log(result)
 
-
-isPrimeNumber(17);
-
-isPrimeNumber(22);
-
-isPrimeNumber(27);
