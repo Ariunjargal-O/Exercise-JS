@@ -67,13 +67,124 @@
 
 
 // 4. i-iin hed dehi huvsagch ve?
-const number = [22,987, 86,33, 44, 57, 879]
-let maxNumber = 0;
-let maxIndex = 0;
-for (i = 0; i < number.length; i++) {
-    if (maxNumber < number[i]) {
-        maxNumber=number[i];
-        maxIndex = i;
-    }
-}console.log(maxIndex,maxNumber)
+// const number = [22,987, 86,33, 44, 57, 879]
+// let maxNumber = 0;
+// let maxIndex = 0;
+// for (i = 0; i < number.length; i++) {
+//     if (maxNumber < number[i]) {
+//         maxNumber=number[i];
+//         maxIndex = i;
+//     }
+// }console.log(maxIndex,maxNumber)
+
+
+// ----- 1 sariin 3nd
+
+// 1. 3 toonii ih oloh
+// let a = 3, b = 9, c = 7;
+// let maxNumber = 0;
+// if (a > b && a > c) {
+//     maxNumber = a
+// } else if (b > c) {
+//     maxNumber = b
+// } else {
+//     maxNumber=c
+// }
+// console.log(maxNumber)
+
+
+
+// 2. 4 toonii iheesee 2 dahi ih toog ni oloh
+
+// let a = 13, b = 5, c = 10, d = 20;
+// if (a>b && a>c && a<d){
+//     console.log(a)
+// } else if (a>b && a<c && a>d){
+//     console.log(a)
+// }  else if (a<b && a>c && a>d){
+//     console.log(a)
+// }  else if (b>a && b>c && b<d){
+//     console.log(b)
+// }  else if (b>a && b<c && b>d){
+//     console.log(b)
+// }  else if (b<a && b>c && b>d){
+//     console.log(b)
+// }  else if (c>a && c>b && c<d){
+//     console.log(c)
+// }  else if (c>a && c<b && c>d){
+//     console.log(c)
+// }  else if (c<a && c>b && c>d){
+//     console.log(c)
+// }  else if (d>a && d>b && d<c){
+//     console.log(d)
+// }  else if (d>a && d<b && d>c){
+//     console.log(d)
+// }  else if (d<a && d>b && d>c){
+//     console.log(d)
+// } 
+
+// --------- 2 arga.
+// let a = 13, b = 2, c = 8, d = 21;
+// if (a > b && a > c && a > d) {
+//     if (b > c && b > d)
+//         console.log(b);
+//     if (c > b && c > d)
+//         console.log(c);
+//     if (d > c && d > b)
+//         console.log(d);
+// } else if (b > a && b > c && b > d) {
+//     if (a > c && a > d)
+//         console.log(a);
+//     if (c > a && c > d)
+//         console.log(c);
+//     if (d > a && d > c)
+//         console.log(d);
+// } else if (c > b && c > d && c > a) {
+//     if (d > b && d > a)
+//         console.log(d);
+//     if (b > d && b > a)
+//         console.log(b);
+//     if (a > b && a > d)
+//         console.log(a);
+// } else if (d > a && d > b && d > c) {
+//     if (c > b && c > a)
+//         console.log(c);
+//     if (b > c && b > a)
+//         console.log(b);
+//     if (a > b && a > c)
+//         console.log(a);
+// }
+
+
+//  3. undur jil oloh 
+//  400 eswel 4t huwaagddag bas 100d huwaagddaggui bol undur jil bna.
+// let jil = 2028
+// if (jil % 400 == 0 || jil % 4 == 0 && jil % 100 !== 0) {
+//     jil = true
+// }
+// else {
+//     jil = false
+// }
+// console.log(jil)
+// 400 bolon 4 - t huwaagddag eswel 100d huwaagddagui 
+// 400 eswel 4t huwaagddag bas 100d huwaagddaggui
+
+
+
+
+// 4. davhardsan too bnauu
+// const nums = [1, 7, 7, 15];
+// for (i = 0; i < nums.length; i++) {
+//     for (j = i + 1; j < nums.length; j++)
+//         if (nums[j] === nums[i]){
+//             console.log(nums[i,j])
+//         }
+// } 
+
+
+// 5.Buble sourt
+
+
+
+
 
