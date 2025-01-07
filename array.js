@@ -183,7 +183,18 @@
 
 
 // 5.Buble sourt
-
+var arr = [7,8,5,6];
+for(var i = 0; i < arr.length ; i++){
+    var temp;
+    for(var j = 0; j < arr.length; j++){
+        if(arr[j] > arr[j+1]){
+            temp = arr[j]; //8
+            arr[j] = arr[j+1]; //index 1 : 3 index 2 : 8
+            arr[j+1] = temp;  //
+        }
+    }
+}
+console.log(arr);
 
 
 

@@ -238,35 +238,67 @@
 
 
 // 3. array dotorh objectiin keyiin utgiig haih uyd
-const names = [     
-    {name:"itgel", 
-    age:17
-    },
-    {
-        name:"naraa", 
-        age:24
-    },
-    {
-        name:"batgel", 
-    age:53
-    }
-]
-    for(let i=0; i<names.length; i++){
-        // if(names.keys==names.length ){
-        //     console.log(names[i].name)
-        // }
-        names.name("itgel")
-    }
-console.log(names)
+// const names = [     
+//     {name:"itgel", 
+//     age:17
+//     },
+//     {
+//         name:"naraa", 
+//         age:24
+//     },
+//     {
+//         name:"batgel", 
+//     age:53
+//     }
+// ]
+//     for(let i=0; i<names.length; i++){
+//         // if(names.keys==names.length ){
+//         //     console.log(names[i].name)
+//         // }
+//         names.name("itgel")
+//     }
+// console.log(names)
     
 
-// // HOMEWORK 
+// //HOMEWORK 
 // console.table([{name: 'naraa', age: 20}, {name: "orgil", age: 21}])
+// const car1 = {name:"Audi", model:"A4"}
+// const car2 = {name:"Volvo", model:"XC90"}
+// const car3 = {name:"Ford", model:"Fusion"}
+// console.table([car1, car2, car3]);
 
-// let bagana = "10"
-// for(i=0; i<bagana.length; i++){
-//     if()
-// }
+
+
+// //    ----- 1 arga
+// const person = [
+//     {name: "naraa", age: 22},
+//     {name: "orgil", age: 23}
+// ];
+// console.log("|-------+-------+-----|");
+// console.log("| index | name  | age |");
+// console.log("|-------+-------+-----|");
+// person.forEach((person, index) => {
+//     console.log(`| ${String(index).padEnd(6)}| ${person.name.padEnd(5)} | ${String(person.age).padEnd(3)} |`) 
+// });
+// console.log("|-------+-------+-----|");
+
+const person = [
+         {name: "naraa", age: 22},
+         {name: "orgil", age: 23}
+    ]
+let bagana = ""
+for(i=0; i<10; i++){
+    if(i!=0){bagana="|                      |";
+    }else{bagana=bagana + "|-------+-------+------|"} ;
+    if(i=3){bagana="|-------+-------+------|"
+    }else{bagana="|                      |"};
+
+console.log(bagana)
+}
+
+
+
+
 
 
 
