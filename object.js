@@ -258,7 +258,7 @@
 //         names.name("itgel")
 //     }
 // console.log(names)
-    
+
 
 // //HOMEWORK 
 // console.table([{name: 'naraa', age: 20}, {name: "orgil", age: 21}])
@@ -272,7 +272,8 @@
 // //    ----- 1 arga
 // const person = [
 //     {name: "naraa", age: 22},
-//     {name: "orgil", age: 23}
+//     {name: "orgil", age: 23},
+//     {name:"ari", age:23}
 // ];
 // console.log("|-------+-------+-----|");
 // console.log("| index | name  | age |");
@@ -282,19 +283,19 @@
 // });
 // console.log("|-------+-------+-----|");
 
-const person = [
-         {name: "naraa", age: 22},
-         {name: "orgil", age: 23}
-    ]
-let bagana = ""
-for(i=0; i<10; i++){
-    if(i!=0){bagana="|                      |";
-    }else{bagana=bagana + "|-------+-------+------|"} ;
-    if(i=3){bagana="|-------+-------+------|"
-    }else{bagana="|                      |"};
+// const person = [
+//          {name: "naraa", age: 22},
+//          {name: "orgil", age: 23}
+//     ]
+// let bagana = ""
+// for(i=0; i<10; i++){
+//     if(i!=0){bagana="|                      |";
+//     }else{bagana=bagana + "|-------+-------+------|"} ;
+//     if(i=3){bagana="|-------+-------+------|"
+//     }else{bagana="|                      |"};
 
-console.log(bagana)
-}
+// console.log(bagana)
+// }
 
 
 
@@ -313,5 +314,106 @@ console.log(bagana)
 //     let a= 1;
 // }
 // console.log(a)
+
+
+// 1 sariin 8nd
+
+// const person = {    // dutuubgaa
+//     name: "orgil",
+// age:23,
+// gender:"male",
+// height:123,
+// hobby:["dota", "code", "nom"]
+// }
+// function selectProperty(){
+// for(key in person){
+//     console.log(`${key.person.age}, `)
+// }
+// }
+
+
+
+
+// 1. 2025-2030 hurtelh 12.31 ymar garig ve?
+// loop, new date, Date method, condition
+
+// const days = {
+//     "0": "Sunday",
+//     "1": "Monday",
+//     "2": "Tuesday",
+//     "3": "Wednesday",
+//     "4": "Thursday",
+//     "5": "Friday",
+//     "6": "Saturday",
+// }
+// for (i = 2025; i <= 2030; i++) {
+//     const aDay = new Date(`${i}-12-31`).getDay();
+//     console.log(i, days[aDay])
+// }
+
+// const current = new Date()   // odoo bgaa udur haruuldag method
+// console.log(current)
+// const current = new Date("2025-1-5")   // zaasan hugatsaag gargaj irne
+// console.log(current)
+
+
+
+// 2. Esregeer ni buyu key bolon value-in bair solih
+// const days = {
+//     '0': 'Ням гараг',
+//     '1': 'Даваа гараг',
+//     '2': 'Мягмар гараг',
+//     '3': 'Лхагва гараг',
+//     '4': 'Пүрэв гараг',
+//     '5': 'Баасан гараг',
+//     '6': 'Бямба гараг',
+// }
+// const newday = {}
+//  //------- davtal1 
+// // for (let key in days) {  
+// //     newday[days[key]] = key    // days[key] buyu value-g bichih bichiglel
+// //         console.log(newday)
+// //     }
+
+//  //------- davtal2                        ijilhen 
+// for (let key in days) {  
+//     const newday = days[key] 
+//     newday[days[key]] = key    // days[key] buyu value-g bichih bichiglel
+//         console.log(newday)
+//      }
+
+
+// console.log(Object.entries(days))  //objectiig array bolgoj hevleh uyd.
+// const greet = () => {       // es6 deer functionii temdeglegeeg => gj bichne 
+// }
+
+
+
+// 3. 2sum-iig objectoor bodoh.
+// brote force arga
+// const nums = [2, 7, 11, 15];
+// const target = 9;
+
+// const obj = {}
+// for(i=0; i+nums.length; i++){
+//     obj[target-nums[i]] = i    // oloh utgaa shineer zarlasan objruu oruulj bga
+// if(obj.hasOwnProperty(nums[i])){
+//     return[obj[nums[i]]]
+// }
+// console.log(obj)
+// }
+
+// hashmap arga 
+// const nums = [2, 7, 11, 15];
+// const target = 9;
+// var twoSum = function(nums, target) {
+//     for( i= 0; i<nums.length; i++){
+//         for(j=i+1; j<nums.length; j++)
+//         if(target===nums[j]+nums[i])
+//        return[i,j]
+//     }
+// };
+
+
 
 

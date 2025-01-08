@@ -135,7 +135,7 @@
 // naran
 
 
-//   --------- 1 arga
+// ------------ 1 arga
 // var palindrome = "naran"
 // var text = ""
 // for(i = 0; i <= palindrome.length -1; i++){
@@ -370,7 +370,6 @@
 // ***
 // **
 // *
-
 // for (i = 5; i >= 1; i--) {
 //     let text = ''
 //     for (j = 1; j <= 5; j++) {
@@ -452,7 +451,7 @@
 
 //  1-10 hurtelh  toonii bagtral oloh
 
-let n =5 ;
+let n =6 ;
 let result = 1;
 for(i=1; i<=n; i++){
    result=result*i
