@@ -390,29 +390,30 @@
 
 
 // 3. 2sum-iig objectoor bodoh.
-// brote force arga
+// // brote force arga
 // const nums = [2, 7, 11, 15];
 // const target = 9;
 
 // const obj = {}
-// for(i=0; i+nums.length; i++){
-//     obj[target-nums[i]] = i    // oloh utgaa shineer zarlasan objruu oruulj bga
-// if(obj.hasOwnProperty(nums[i])){
-//     return[obj[nums[i]]]
-// }
-// console.log(obj)
+// for (let i = 0; i < nums.length; i++) {
+//     obj[target - nums[i]] = i; // oloh utgaa shineer zarlasan objruu oruulj bga
+//     if(obj.hasOwnProperty(nums[i])) {
+//         console.log ([obj[nums[i]], i])
+//     }
 // }
 
+
 // hashmap arga 
-// const nums = [2, 7, 11, 15];
-// const target = 9;
-// var twoSum = function(nums, target) {
-//     for( i= 0; i<nums.length; i++){
-//         for(j=i+1; j<nums.length; j++)
-//         if(target===nums[j]+nums[i])
-//        return[i,j]
-//     }
-// };
+const nums = [2, 7, 11, 15];
+const target = 9;
+var twoSum = function(nums, target) {
+    for( i=0; i<nums.length; i++){
+        for(j=i+1; j<nums.length; j++)
+        if(target===nums[j]+nums[i])
+       return nums[i,j]
+    }
+}
+console.log([nums[i],[j]])
 
 
 
