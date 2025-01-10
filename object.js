@@ -1,18 +1,18 @@
 // 1 sariin 7nd 30 dahi orolt.
 // -------1 sariin 6nii udur hicheel nuhuv. 
 // -------bubble sort iin code.
-// var arr = [7,8,5,6];
-// for(var i = 0; i < arr.length ; i++){
-//     var temp;
-//     for(var j = 0; j < arr.length; j++){
-//         if(arr[j] > arr[j+1]){
-//             temp = arr[j]; //8
-//             arr[j] = arr[j+1]; //index 1 : 3 index 2 : 8
-//             arr[j+1] = temp;  //
-//         }
-//     }
-// }
-// console.log(arr);
+var arr = [7,8,5,6];
+for(var i = 0; i < arr.length ; i++){
+    var temp;
+    for(var j = 0; j < arr.length; j++){
+        if(arr[j] > arr[j+1]){
+            temp = arr[j]; //8
+            arr[j] = arr[j+1]; //index 1 : 3 index 2 : 8
+            arr[j+1] = temp;  //
+        }
+    }
+}
+console.log(arr);
 
 
 
@@ -404,16 +404,16 @@
 
 
 // hashmap arga 
-const nums = [2, 7, 11, 15];
-const target = 9;
-var twoSum = function(nums, target) {
-    for( i=0; i<nums.length; i++){
-        for(j=i+1; j<nums.length; j++)
-        if(target===nums[j]+nums[i])
-       return nums[i,j]
-    }
-}
-console.log([nums[i],[j]])
+// const nums = [2, 7, 11, 15];
+// const target = 9;
+// var twoSum = function(nums, target) {
+//     for( i=0; i<nums.length; i++){
+//         for(j=i+1; j<nums.length; j++)
+//         if(target===nums[j]+nums[i])
+//        return nums[i,j]
+//     }
+// }
+// console.log([nums[i],[j]])
 
 
 

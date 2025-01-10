@@ -128,21 +128,36 @@ const weather = [
 ]
 
 // 1. Ognoog iheesn bagaruu bolgoh 1 saraas 12 hurtel. Descenting sort.
+
+//// --1 arga
 // const newweather = weather.reverse();
 // console.log('newweather:', newweather)
+
+//// --2 arga
+const sortedWeater = weather.sort((a, b) => new Date(b.Date)- new Date(a.date))
+console.log(sortedWeater)
 
 
 
 // 2. zuvhun suuliin doloo hongiin tsag agaariin medeell haruulah. Last week weather information
 // for(i=0; i<weather.length; i++){
-//     if("2025-01-02"<weather[i].date){
+//     if("2025-01-02"<weather[i].date){   // shuud zaasan ugnees hoishiig haruulah uyd
 //         console.log(weather[i])
 //     }
 // }
 
+// //-------Davaa garigaas ehleed gdeg nutsul zaaj ugj bgaa uyd.
+// const today = new Date();
+// const currentWeekMonday = new Date(today.getDate()-today.getDay())
+// currentWeekMonday.setDate(today.getDate()-today.getDay())
+// const sliced = weather.filter(element => {
+//     return new Date(element.date) > currentWeekMonday 
+// })
+// console.log(sliced)
 
+
+// // -----------Turshilt buyu anhan oilgolt
 // const ages = [13,31,19,27,18];
-
 // for(i=0; i<ages.length; i++){
 //     if(21<ages[i]){
 //         console.log(ages[i],i)
@@ -160,9 +175,6 @@ const weather = [
 //         console.log(students[i].name)  //// array-iin heddehi ni ali utgaar gdgiig zaaj ugj bga uyd
 //     }
 // }
-
-
-
 
 
 
@@ -194,44 +206,38 @@ const names = [
   ];
 
 // 1. 2 dahi usgeer ni a-z hurtel sortloh. Ascending sort names second letter
-const sortnames =[]
-let secondletter =[]
-for(i=0; i<names.length; i++){
-    //  secondletter.push(sortnames.sort());
- 
-    sortnames.push((names[i].charAt(1)))
-}
+
+// names.sort((a, b) => {
+//     return a[1].charCodeAt() - b[1].charCodeAt()
+// })
+// console.log(names)
 
 
+// //-------miniii arga dutuu bgaa.
+// const sortnames =[]
+// let secondletter =[]
+// for(i=0; i<names.length; i++){
+//     //  secondletter.push(sortnames.sort()); 
+//     sortnames.push((names[i].charAt(1)))
+// }
+// console.log(names((names[i].charAt(1))))
 
-console.log(names((names[i].charAt(1))))
+
 
 
 
 // // 2. nernii ehnii usgeer ni groupleh tus tusad ni arrayd hiine. Names group by first letter
-// for(i=0; i<names.length; i++){
-
-// }
-
-// const sortname = [];
-// for(const vehicle in names){
-//     sortname.push([vehicle,names.sort()]);
-// }
-// sortname.length.sort(function(a, b){
-//     return a[1] - b[1];
-// });
-// console.log(names(sort.name))
-
-// const groups = []
-// const groupedByFirstLetter = names.reduce((groups),name => {
-//     const firstLetter = name [0];
-//     if (!groups[firstLetter]) {
-//         groups[firstLetter] = [];
+//  const obj = {};
+//  names.forEach((element) => {
+//     if(obj.hasOwnProperty(element[0])){
+//         obj[element[0]].push(element)
+//     }else{
+//         obj[element[0]] = [element]    // {"b" : baljin gj gargaj irne}
 //     }
-//     groups[firstletter].push(name);
-//     return groups;
-// }, {});
- 
-// console.log("Grouped by first letter:", groupedbyFirstLetter);
+//  })
 
-// console.log("a" < "c")
+//  const nestedArray = Object.values(obj)
+//  console.log(obj)
+
+// 
+
